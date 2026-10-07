@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Andamento do projeto | Novo Sistema RQ</title>
+<style>
+:root{color-scheme:light;--blue:#0b5ed7;--orange:#ff8a00;--text:#17283a;--muted:#596977;--line:#dbe5ef;--green:#166534;--amber:#855700}
+*{box-sizing:border-box}body{margin:0;background:#f6f8fa;color:var(--text);font:16px/1.6 "Segoe UI",Arial,sans-serif;letter-spacing:0}header,main,footer{max-width:1120px;margin:auto;padding:0 32px}.masthead{background:white;border-bottom:1px solid var(--line)}.masthead header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:22px;padding-bottom:22px}.logo{width:240px;height:64px;overflow:hidden;position:relative;flex-shrink:0}.logo img{position:absolute;width:1300px;max-width:none;left:-27px;top:-10px}.date{font-size:13px;color:var(--muted);text-align:right}.intro{padding:38px 0 26px;border-bottom:1px solid var(--line)}.eyebrow{font-size:12px;font-weight:700;color:var(--blue);margin:0 0 10px}h1{font-size:36px;line-height:1.2;margin:0 0 14px;font-weight:700}h2{font-size:23px;line-height:1.3;margin:0 0 12px}h3{font-size:18px;line-height:1.4;margin:14px 0 8px}p{margin:0 0 12px}.lead{font-size:18px;max-width:760px;color:var(--muted)}.notice{border-left:3px solid var(--orange);padding:8px 0 8px 16px;margin-top:22px;max-width:850px;font-size:14px}.notice p{margin:0}.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.status{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border-radius:4px;font-size:12px;font-weight:700;white-space:nowrap}.done{background:#e8f4ec;color:var(--green)}.progress{background:#fff2d8;color:var(--amber)}.planned{background:#edf1f5;color:#536373}section{padding:30px 0;border-bottom:1px solid var(--line)}.section-note{color:var(--muted);font-size:14px;margin-bottom:20px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:white;border:1px solid var(--line);border-radius:6px;padding:20px;min-width:0}.card p{font-size:14px;color:var(--muted);margin:0}.card .pending{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);color:#725818}.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:20px}.step{border-top:3px solid var(--blue);padding-top:12px}.step b{font-size:13px;color:var(--blue)}.step h3{margin-top:6px}.step p{font-size:14px;color:var(--muted)}.future{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;margin-top:18px}.future article{padding:16px 0;border-bottom:1px solid var(--line)}.future h3{margin:8px 0 5px;font-size:16px}.future p{font-size:14px;color:var(--muted);margin:0}.summary{background:white;padding:24px 0;border-bottom:none}.summary p{max-width:870px}.validation{font-size:13px;color:var(--muted);margin-top:16px}footer{padding-top:20px;padding-bottom:26px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:16px}h1,h2,h3,p{overflow-wrap:anywhere}
+@media(max-width:850px){.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr;gap:16px}}
+@media(max-width:560px){header,main,footer{padding-left:20px;padding-right:20px}.masthead header{align-items:flex-start;flex-direction:column;gap:8px}.date{text-align:left}.intro{padding-top:26px}h1{font-size:30px}h2{font-size:21px}.lead{font-size:16px}.grid,.future{grid-template-columns:1fr}.card{padding:18px}footer{flex-direction:column;gap:4px}}
+@media print{body{background:white;font-size:12px}header,main,footer{max-width:none;padding-left:0;padding-right:0}.intro,section{padding-top:18px;padding-bottom:18px}.card,.step,.future article{break-inside:avoid}.card{padding:12px}.grid{gap:10px}h1{font-size:28px}.lead{font-size:14px}.status{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<!-- Classificacao revisada contra apps/backend/src, apps/frontend/src, db/migrations,
+     backlog e documentos de implementacao, incluindo alteracoes locais nao registradas.
+     Evidencias anteriores: checkpoints de 2026-09-28, P1 de 2026-09-30 e P-UX.2D de 2026-10-05.
+     Pendencias antigas de Produtos/Propostas nao prevalecem sobre implementacao posterior.
+     Nenhum teste foi reexecutado: npm ausente no PATH; Docker inacessivel neste ambiente.
+     Legado e inventarios representam origem e escopo futuro, nao entregas do novo sistema. -->
+<div class="masthead"><header>
+<div class="logo"><src="assets/logo.png" alt="RQ Tecnologia"></div>
+<div class="date">Data do relat&oacute;rio<br><strong>06 de outubro de 2026</strong></div>
+</header></div>
+<main>
+<div class="intro">
+<p class="eyebrow">RELAT&Oacute;RIO DE ANDAMENTO DO PROJETO</p>
+<h1>Novo Sistema RQ</h1>
+<p class="lead">Est&aacute;gio atual da moderniza&ccedil;&atilde;o do sistema, com as entregas realizadas e as etapas que ainda precisam ser conclu&iacute;das.</p>
+<div class="notice"><p><strong>O projeto avan&ccedil;a por etapas.</strong> J&aacute; existem fun&ccedil;&otilde;es desenvolvidas e verificadas em ambiente de desenvolvimento. A aprova&ccedil;&atilde;o final para uso definitivo e a substitui&ccedil;&atilde;o do sistema atual ainda est&atilde;o pendentes.</p></div>
+<div class="legend" aria-label="Legenda dos estados"><span class="status done">&#10003; Conclu&iacute;do</span><span class="status progress">&#9680; Em desenvolvimento</span><span class="status planned">&#9675; Planejado</span></div>
+</div>
+<section aria-labelledby="realizado">
+<h2 id="realizado">O que j&aacute; foi desenvolvido</h2>
+<p class="section-note">Os itens conclu&iacute;dos abaixo correspondem ao escopo descrito. Amplia&ccedil;&otilde;es futuras e a aprova&ccedil;&atilde;o final do sistema continuam separadas.</p>
+<div class="grid">
+<article class="card"><span class="status done">&#10003; Conclu&iacute;do</span><h3>Acesso e usu&aacute;rios</h3><p>Entrada com senha, gest&atilde;o de usu&aacute;rios e perfis, controle das a&ccedil;&otilde;es permitidas e altera&ccedil;&atilde;o de senha.</p></article>
+<article class="card"><span class="status done">&#10003; Conclu&iacute;do</span><h3>Cadastros comerciais</h3><p>Cadastro e consulta de prospectos, potenciais e clientes, com contatos e endere&ccedil;os. Evolu&ccedil;&atilde;o entre categorias e transfer&ecirc;ncia de respons&aacute;vel com hist&oacute;rico.</p></article>
+<article class="card"><span class="status done">&#10003; Conclu&iacute;do</span><h3>Oportunidades</h3><p>Registro e acompanhamento de negocia&ccedil;&otilde;es, altera&ccedil;&atilde;o de etapas, perda, cancelamento e reabertura com hist&oacute;rico. O fechamento por venda pertence &agrave; pr&oacute;xima etapa.</p></article>
+</div>
+</section>
+<section aria-labelledby="desenvolvimento">
+<h2 id="desenvolvimento">M&oacute;dulos em desenvolvimento</h2>
+<p class="section-note">Fun&ccedil;&otilde;es j&aacute; presentes, com complementos ou valida&ccedil;&otilde;es ainda necess&aacute;rios.</p>
+<div class="grid">
+<article class="card"><span class="status progress">&#9680; Em desenvolvimento</span><h3>Produtos e pre&ccedil;os</h3><p>Cadastro, pesquisa, classifica&ccedil;&atilde;o, c&oacute;digos de barras e caracter&iacute;sticas. Custos, frete, pre&ccedil;os de venda e hist&oacute;rico j&aacute; possuem tratamento. A ficha inclui textos, medidas, garantia e indica&ccedil;&otilde;es comerciais.</p><p class="pending"><strong>Falta:</strong> concluir a aprova&ccedil;&atilde;o dos ajustes recentes e conferir os c&aacute;lculos com exemplos reais do sistema atual. Importa&ccedil;&atilde;o e atualiza&ccedil;&atilde;o autom&aacute;tica ainda n&atilde;o est&atilde;o dispon&iacute;veis.</p></article>
+<article class="card"><span class="status progress">&#9680; Em desenvolvimento</span><h3>Or&ccedil;amentos e aprova&ccedil;&otilde;es</h3><p>Cria&ccedil;&atilde;o de or&ccedil;amentos, itens, totais, revis&otilde;es e condi&ccedil;&otilde;es comerciais. Solicita&ccedil;&atilde;o, decis&atilde;o e revoga&ccedil;&atilde;o de aprova&ccedil;&otilde;es j&aacute; existem, preservando a condi&ccedil;&atilde;o analisada.</p><p class="pending"><strong>Falta:</strong> conferir os valores com o sistema atual e completar o documento, o envio e o aceite do cliente antes de fechar a venda.</p></article>
+<article class="card"><span class="status progress">&#9680; Em desenvolvimento</span><h3>Administra&ccedil;&atilde;o ampliada</h3><p>Usu&aacute;rios, perfis e cadastros de classifica&ccedil;&atilde;o dos produtos j&aacute; podem ser mantidos. Opera&ccedil;&otilde;es importantes registram seu hist&oacute;rico.</p><p class="pending"><strong>Falta:</strong> gest&atilde;o completa de equipes e filiais, demais configura&ccedil;&otilde;es previstas e consulta centralizada do hist&oacute;rico de altera&ccedil;&otilde;es.</p></article>
+</div>
+</section>
+<section aria-labelledby="proximas">
+<h2 id="proximas">Pr&oacute;ximas etapas</h2>
+<p class="section-note">A prioridade &eacute; completar o caminho da negocia&ccedil;&atilde;o at&eacute; o pedido, preservando as entregas j&aacute; realizadas.</p>
+<div class="steps">
+<article class="step"><b>01 / VALIDAR</b><h3>Confirmar as entregas recentes</h3><p>Aprovar a ficha de produtos e conferir pre&ccedil;os e arredondamentos com casos reais.</p></article>
+<article class="step"><b>02 / COMPLETAR</b><h3>Documento e comunica&ccedil;&atilde;o</h3><p>Aprovar a apresenta&ccedil;&atilde;o do or&ccedil;amento, gerar o documento, enviar por e-mail e registrar o aceite.</p></article>
+<article class="step"><b>03 / CONECTAR</b><h3>Venda e pedido</h3><p>Verificar situa&ccedil;&atilde;o cadastral, cr&eacute;dito e disponibilidade; gerar a venda e confirmar o pedido no sistema atual.</p></article>
+</div>
+<div class="future">
+<article><span class="status planned">&#9675; Planejado</span><h3>Documentos, envio e aceite</h3><p>A prepara&ccedil;&atilde;o dos dados do or&ccedil;amento j&aacute; foi feita. Gera&ccedil;&atilde;o do documento, envio, notifica&ccedil;&otilde;es e aceite ainda precisam ser implementados.</p></article>
+<article><span class="status planned">&#9675; Planejado</span><h3>Vendas, pedidos e liga&ccedil;&atilde;o com o sistema atual</h3><p>Convers&atilde;o da negocia&ccedil;&atilde;o em venda, entrega do pedido e acompanhamento da confirma&ccedil;&atilde;o, sem duplicidades.</p></article>
+<article><span class="status planned">&#9675; Planejado</span><h3>Verifica&ccedil;&otilde;es antes da venda</h3><p>Consulta de cr&eacute;dito, situa&ccedil;&atilde;o fiscal, disponibilidade e reserva de produtos no sistema atual.</p></article>
+<article><span class="status planned">&#9675; Planejado</span><h3>Atividades e indicadores</h3><p>Agenda e acompanhamento de atividades comerciais, avisos e relat&oacute;rios. O painel inicial ainda n&atilde;o apresenta indicadores reais.</p></article>
+<article><span class="status planned">&#9675; Planejado</span><h3>Transfer&ecirc;ncia de dados e entrada em uso</h3><p>Ensaiar a transfer&ecirc;ncia de dados reais, conferir os resultados e validar o funcionamento completo com os usu&aacute;rios.</p></article>
+<article><span class="status planned">&#9675; Planejado</span><h3>Amplia&ccedil;&otilde;es posteriores</h3><p>Compras, controle completo de estoque, financeiro, fiscal, log&iacute;stica e p&oacute;s-venda constam da vis&atilde;o de moderniza&ccedil;&atilde;o, fora da primeira entrega. Seu detalhamento ainda depende das etapas futuras.</p></article>
+</div>
+</section>
+<section class="summary" aria-labelledby="resumo">
+<h2 id="resumo">Resumo geral do andamento</h2>
+<p>A base de acesso e os principais cadastros comerciais j&aacute; foram desenvolvidos. Produtos, pre&ccedil;os e or&ccedil;amentos possuem avan&ccedil;os concretos. Ainda faltam etapas importantes para completar a venda, confirmar o pedido e substituir o sistema atual com seguran&ccedil;a.</p>
+<p class="validation"><strong>Limites desta avalia&ccedil;&atilde;o:</strong> foram examinados o trabalho atual e os registros de verifica&ccedil;&otilde;es anteriores. N&atilde;o foi poss&iacute;vel repetir os testes nesta revis&atilde;o nem confirmar a aprova&ccedil;&atilde;o final de todos os ajustes recentes. As funcionalidades existentes no sistema antigo n&atilde;o foram contabilizadas como entregas do novo sistema.</p>
+</section>
+</main>
+<footer><strong>RQ Tecnologia</strong><span>Relat&oacute;rio de acompanhamento &middot; 06/10/2026</span></footer>
+</body>
+</html>
